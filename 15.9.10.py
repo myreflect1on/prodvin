@@ -1,0 +1,5 @@
+# abscissas = input().split()
+# ordinates = input().split()
+# applicates = input().split()
+koord = list(zip(map(float, input().split()), map(float, input().split()), map(float, input().split())))
+print(all(map(lambda x: x[0]**2 + x[1]**2 + x[2]**2 <= 4, koord)))

@@ -1,0 +1,11 @@
+file = open('temp.txt', 'w', encoding='utf-8')
+file.write(test_text_1)
+file.write(test_text_2)
+file.close()
+
+text = open('temp.txt', 'rb')
+
+for byte_code in text:
+    print(byte_code.strip())
+    test_text = byte_code.decode('cp1251')
+    print(test_text.strip())

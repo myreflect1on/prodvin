@@ -1,0 +1,1 @@
+s = [k, v in [input().split(': ', 1)]]

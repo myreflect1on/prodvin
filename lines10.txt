@@ -1,0 +1,6 @@
+Which of the following functions do you use to write data in the binary format?
+Python provides a wide range of built-in functions for file handling.
+Open a File
+Remember! While specifying the exact path
+It makes it really easy to create
+update, read, and delete files.
